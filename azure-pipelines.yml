@@ -10,6 +10,8 @@ pool:
   vmImage: 'ubuntu-18.04'
 
 steps:
+- task: ComponentGovernanceComponentDetection@0
+
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
