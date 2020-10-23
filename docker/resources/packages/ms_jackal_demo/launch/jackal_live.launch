@@ -1,37 +1,35 @@
 <launch>
-  <!-- Velodyne + Camera -->
-  <include file="$(find ms_jackal_startup)/launch/velodyne.launch">
-  </include>
-
+  <!-- Intel Realsense drivers with image undistortion for Azure Spatial Anchors -->
   <include file="$(find asa_ros)/launch/intel_t265.launch" >
   </include>
 
+  <!-- Extrinsic calibration for the Realsense. -->
   <node pkg="tf" type="static_transform_publisher" name="realsense_mount_tf" args="0 0 0 0 0 0 1 realsense_mount_link camera_pose_frame 100" />
 
+  <!-- Simple republishing script to publish information from /tf as geometry_msgs/TransfromStamped. -->
   <node pkg="ms_jackal_demo" type="tf_transform.py" name="tf_transform">
     <param name="parent_frame" value="anchor_rot" />
     <param name="child_frame" value="odom" />
   </node>
 
+  <!-- ROS -> Unity coordinate frame conversion. -->
   <node pkg="tf" type="static_transform_publisher" name="anchor_tf" args="0 0 0 -0.5 0.5 0.5 0.5 anchor anchor_rot 100" />
 
-  <!-- ASA -->
+  <!-- Azure Spatial Anchors -->
   <include file="$(find asa_ros)/launch/asa_ros.launch">
     <arg name="anchor_id" value="3ca83875-1700-4ad2-90fc-62a0759d77fe" />
     <arg name="anchor_frame_id" value="anchor" />
   </include>
-
-  <!-- Slam Gmapping -->  
+  
+  <!-- Slam Gmapping from the laser scanner. -->  
   <arg name="scan_topic" default="$(eval optenv('JACKAL_LASER_TOPIC', 'front/scan'))" />
   <include file="$(find jackal_navigation)/launch/include/gmapping.launch">
     <arg name="scan_topic"    value="$(arg scan_topic)" />
   </include>
 
-  <!--- Run Move Base -->
+  <!--- Navigation -->
   <include file="$(find jackal_navigation)/launch/include/move_base.launch" />
 
   <!-- Run the webserver for communication with other devices -->
-  <rosparam param="/rosbridge_websocket/capability_group">Visualization</rosparam>
-  <rosparam param="/rosapi/capability_group">Visualization</rosparam>
   <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch" />
 </launch>
