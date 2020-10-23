@@ -1,0 +1,21 @@
+{
+    "name": "CustomScripts",
+    "references": [
+        "GUID:a4c0b09192116784aa1bbaa9b6b77c45",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:945ba325dcf611548afd253e356540cc",
+        "GUID:a7a4c34601384f9389d5c4207f3c6331",
+        "GUID:33d8827e6b886c24980a9ae3153d16c9",
+        "GUID:cea456fb85d819645899d08b84466140",
+        "GUID:9a6ddf5d388cc2b498e8a9d44bd289f0"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
