@@ -1,0 +1,18 @@
+{
+    "name": "CustomEditor",
+    "references": [
+        "GUID:4d0bb1b8bf7dbf34cb7b88fc0dec50cf",
+        "GUID:945ba325dcf611548afd253e356540cc"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

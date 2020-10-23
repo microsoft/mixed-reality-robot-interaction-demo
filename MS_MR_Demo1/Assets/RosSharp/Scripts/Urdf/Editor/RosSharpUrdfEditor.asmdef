@@ -1,0 +1,17 @@
+{
+    "name": "RosSharpUrdfEditor",
+    "references": [
+        "GUID:a4c0b09192116784aa1bbaa9b6b77c45"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
