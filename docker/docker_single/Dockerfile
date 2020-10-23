@@ -37,8 +37,8 @@ RUN rm -r -f /home/ros-sharp
 ###########################
 # download ms_jackal_demo #
 ###########################
-RUN cd /home/ && git clone https://github.com/EricVoll/jackal_description
-RUN mv /home/jackal_description/docker/resources/packages/ms_jackal_demo /home/catkin_ws/src
+RUN cd /home/ && git clone https://github.com/microsoft/mixed-reality-robot-interaction-demo
+RUN mv /home/mixed-reality-robot-interaction-demo/docker/resources/packages/ms_jackal_demo /home/catkin_ws/src
 RUN rm -r -f /home/jackal_description
 
 #########################
