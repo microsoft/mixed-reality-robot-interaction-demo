@@ -1,4 +1,5 @@
-# IROS 2020 Mixed Reality and Robotics Tutorial, Demo 1 
+# IROS 2020 Mixed Reality and Robotics Tutorial
+# Demo 1: Robot Interaction through Mixed Reality
 
 Microsoft is hosting a workshop at the IROS 2020 conference on Mixed Reality and Robotics.
 This repository contains all the code required to run, build and deploy Demo 1.
