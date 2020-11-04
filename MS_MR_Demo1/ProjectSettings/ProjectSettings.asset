@@ -125,8 +125,7 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 0.1
-  preloadedAssets:
-  - {fileID: -6118919797599693191, guid: 8c8b6aaa5dbc9dd4696a3000e1f1c953, type: 2}
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -186,7 +185,7 @@ PlayerSettings:
   StripUnusedMeshComponents: 1
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
-  iOSTargetOSVersionString: 10.0
+  iOSTargetOSVersionString: 11.0
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 10.0
@@ -445,7 +444,7 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: 
+  cameraUsageDescription: This app requires access to your camera.
   locationUsageDescription: 
   microphoneUsageDescription: 
   switchNetLibKey: 
@@ -676,7 +675,8 @@ PlayerSettings:
     4: ARFOUNDATION_PRESENT
     7: ARFOUNDATION_PRESENT
     14: 
-  platformArchitecture: {}
+  platformArchitecture:
+    iPhone: 1
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
   managedStrippingLevel: {}
