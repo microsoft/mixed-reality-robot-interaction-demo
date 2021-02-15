@@ -3,7 +3,11 @@
 
 Microsoft is hosting a workshop at the IROS 2020 conference on Mixed Reality and Robotics.
 This repository contains all the code required to run, build and deploy Demo 1.
-The tutorial is available starting October 25th 2020 until November 25th 2020 at https://www.iros2020.org/.
+The tutorial _was_ available from October 2020 until January 2021 at https://www.iros2020.org/.
+
+The lecture content of the tutorial is now available as a Microsoft Research Webinar: https://note.microsoft.com/MSR-Webinar-Reality-and-Robotics-Registration-On-Demand.html
+
+The hands-on video walkthroughs for the demos will be **available soon** on the MSR YouTube channel.
 
 Demo 1 aims to:
 - Highlight how the robotic community can benefit from Mixed Reality
