@@ -7,7 +7,9 @@ The tutorial _was_ available from October 2020 until January 2021 at https://www
 
 The lecture content of the tutorial is now available as a Microsoft Research Webinar: https://note.microsoft.com/MSR-Webinar-Reality-and-Robotics-Registration-On-Demand.html
 
-The hands-on video walkthroughs for the demos will be **available soon** on the MSR YouTube channel.
+The hands-on video walkthroughs for the demos are available on the MSR YouTube channel:
+- [Demo 1: Interaction](https://youtu.be/4G3wjPIs4Fc) (the demo that goes with the code in this repo)
+- [Demo 2: Colocalization](https://youtu.be/P11LcMOp2CE) (the demo that uses the [ASA ROS Wrapper](https://github.com/microsoft/azure_spatial_anchors_ros/) and is described in the [wiki](https://github.com/microsoft/azure_spatial_anchors_ros/wiki/Demo) there)
 
 Demo 1 aims to:
 - Highlight how the robotic community can benefit from Mixed Reality
