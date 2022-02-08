@@ -5,6 +5,8 @@ FROM iros2020.azurecr.io/jackal_base:latest
 # Setting default shell to bash
 SHELL ["/bin/bash", "--login", "-c"]
 
+# apt-get update before installing packages
+RUN sudo apt-get update
 RUN sudo apt-get install -y apt-utils
 RUN mkdir -p /home/catkin_ws/src
 
@@ -25,6 +27,10 @@ RUN pip install autobahn tornado bson pymongo pillow
 #####################
 # install RosBridge #
 #####################
+# https://answers.ros.org/question/325039/apt-update-fails-cannot-install-pkgs-key-not-working/
+RUN sudo apt-key del 421C365BD9FF1F717815A3895523BAEEB01FA116
+RUN sudo -E apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+RUN sudo apt clean && sudo apt update
 RUN apt-get -y install ros-melodic-rosbridge-server 
 
 ########################
