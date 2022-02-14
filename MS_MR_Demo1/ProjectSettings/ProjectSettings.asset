@@ -125,8 +125,7 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 0.1
-  preloadedAssets:
-  - {fileID: -6118919797599693191, guid: 8c8b6aaa5dbc9dd4696a3000e1f1c953, type: 2}
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -693,9 +692,9 @@ PlayerSettings:
   metroPackageVersion: 1.0.0.0
   metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: DefaultCompany
-  metroCertificateIssuer: DefaultCompany
-  metroCertificateNotAfter: 00013d5c90b0d701
+  metroCertificateSubject: Microsoft
+  metroCertificateIssuer: Microsoft
+  metroCertificateNotAfter: 00a2fc498d40d901
   metroApplicationDescription: MS IROS interaction demo
   wsaImages: {}
   metroTileShortName: 

@@ -1,16 +1,16 @@
 {
-    "scopedRegistries": [
-      {
-        "name": "Azure Mixed Reality Services",
-        "url": "https://api.bintray.com/npm/microsoft/AzureMixedReality-NPM",
-        "scopes": [
-          "com.microsoft.azure.spatial-anchors-sdk"
-        ]
-      }
-    ],
+  "scopedRegistries": [
+    {
+      "name": "Azure Mixed Reality Services",
+      "url": "https://api.bintray.com/npm/microsoft/AzureMixedReality-NPM",
+      "scopes": [
+        "com.microsoft.azure.spatial-anchors-sdk"
+      ]
+    }
+  ],
   "dependencies": {
-    "com.microsoft.azure.spatial-anchors-sdk.windows": "2.6.0",
-    "com.microsoft.azure.spatial-anchors-sdk.android": "2.6.0",
+    "com.microsoft.azure.spatial-anchors-sdk.windows": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.windows-2.8.1.tgz",
+    "com.microsoft.azure.spatial-anchors-sdk.android": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.android-2.8.1.tgz",
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ide.rider": "1.1.4",
     "com.unity.ide.vscode": "1.2.1",
@@ -51,6 +51,7 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
+    "com.unity.modules.xr": "1.0.0",
+    "com.microsoft.azure.spatial-anchors-sdk.core": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.core-2.8.1.tgz"
   }
 }
