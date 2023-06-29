@@ -694,7 +694,7 @@ PlayerSettings:
   metroCertificatePassword: 
   metroCertificateSubject: Microsoft
   metroCertificateIssuer: Microsoft
-  metroCertificateNotAfter: 00a2fc498d40d901
+  metroCertificateNotAfter: 80561c285ebeda01
   metroApplicationDescription: MS IROS interaction demo
   wsaImages: {}
   metroTileShortName: 
