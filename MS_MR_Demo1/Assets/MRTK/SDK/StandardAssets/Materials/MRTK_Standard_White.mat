@@ -10,7 +10,7 @@ Material:
   m_Name: MRTK_Standard_White
   m_Shader: {fileID: 4800000, guid: 5bdea20278144b11916d77503ba1467a, type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _BORDER_LIGHT_USES_HOVER_COLOR _DIRECTIONAL_LIGHT
-    _DISABLE_ALBEDO_MAP _LIGHTMAPPING_REALTIME _SPECULAR_HIGHLIGHTS
+    _DISABLE_ALBEDO_MAP _EMISSION _LIGHTMAPPING_REALTIME _REFLECTIONS _SPECULAR_HIGHLIGHTS
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -88,7 +88,7 @@ Material:
     - _ClippingPlaneBorder: 0
     - _ClippingPlaneBorderWidth: 0.025
     - _ColorWriteMask: 15
-    - _CullMode: 2
+    - _CullMode: 0
     - _CustomMode: 0
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -97,7 +97,7 @@ Material:
     - _EdgeSmoothingValue: 0.002
     - _EmissionScaleUI: 0
     - _EnableChannelMap: 0
-    - _EnableEmission: 0
+    - _EnableEmission: 1
     - _EnableHoverColorOpaqueOverride: 0
     - _EnableHoverColorOverride: 0
     - _EnableLocalSpaceTriplanarMapping: 0
@@ -136,7 +136,7 @@ Material:
     - _ProximityLight: 0
     - _ProximityLightSubtractive: 0
     - _ProximityLightTwoSided: 0
-    - _Reflections: 0
+    - _Reflections: 1
     - _Refraction: 0
     - _RefractiveIndex: 1.1
     - _RenderQueueOverride: -1
@@ -145,7 +145,7 @@ Material:
     - _RoundCornerMargin: 0
     - _RoundCornerRadius: 0.25
     - _RoundCorners: 0
-    - _Smoothness: 0.5
+    - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SphericalHarmonics: 0
@@ -171,7 +171,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColorUI: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissiveColor: {r: 0, g: 0, b: 0, a: 0}
     - _EnvironmentColorX: {r: 1, g: 0, b: 0, a: 1}
     - _EnvironmentColorY: {r: 0, g: 1, b: 0, a: 1}
     - _EnvironmentColorZ: {r: 0, g: 0, b: 1, a: 1}
