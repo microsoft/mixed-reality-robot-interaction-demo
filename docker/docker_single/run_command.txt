@@ -1,1 +1,0 @@
-docker run -it --rm -e DISPLAY=$DISPLAY -p 9090:9090 /bin/bash -c "source /home/catkin_ws/devel/setup.bash && roslaunch ms_jackal_demo jackal_demo.launch"
