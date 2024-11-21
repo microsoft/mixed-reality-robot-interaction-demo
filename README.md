@@ -1,3 +1,5 @@
+# The components of this demo that depend on the "Azure Spatial Anchors (ASA)" service no longer work, as that service has been retired on November 20th 2024 (see [announcement](https://azure.microsoft.com/en-us/updates/azure-spatial-anchors-retirement/)). This repo will remain public so that the other components remain available to the community.
+
 # IROS 2020 Mixed Reality and Robotics Tutorial
 # Demo 1: Robot Interaction through Mixed Reality
 
